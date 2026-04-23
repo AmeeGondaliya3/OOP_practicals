@@ -93,7 +93,7 @@ public class Main {
     }
 }
 
-/*output:
+//output:
 Choose Account Type:
 1. Saving Account
 2. Fixed Deposit Account
@@ -111,3 +111,4 @@ Calculated Interest: 300.0
 Enter amount to withdraw: 500
 Withdrawal successful!
 Current Balance: 5500.0
+
