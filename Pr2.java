@@ -38,3 +38,14 @@ public class Pr2 {
         sc.close();
     }
 }
+
+output:
+Enter value of a: 2
+Enter value of b: 3
+Enter value of c: 1
+Enter value of d: 2
+Enter value of e: 5
+Enter value of f: 3
+Solution:
+x = 1.0
+y = 1.0
