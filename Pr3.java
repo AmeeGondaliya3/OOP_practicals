@@ -16,3 +16,11 @@ public class Pr3 {
         sc.close();
     }
 }
+
+output:
+Enter a character : 
+a
+a is a Vowel 
+Enter a character : 
+s
+s is a Consonant 
