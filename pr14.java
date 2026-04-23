@@ -93,7 +93,7 @@ public class Main {
     }
 }
 
-//output:
+/*output:
 Choose Account Type:
 1. Saving Account
 2. Fixed Deposit Account
