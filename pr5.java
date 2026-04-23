@@ -25,3 +25,10 @@ public class TriangleArea {
         sc.close();
     }
 }
+
+output:
+Enter side a: 3
+Enter side b: 4
+Enter side c: 5
+The given sides form a valid triangle.
+Area of the triangle = 6.00
