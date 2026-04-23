@@ -1,35 +1,48 @@
-class VolumeCalculator {
+import java.util.Scanner;
 
-    double calculateVolume(double side) {
-        return side * side * side;
+class Volume {
+
+    void calculateVolume(double side) {
+        double volume = side * side * side;
+        System.out.println("Volume of Cube = " + volume);
     }
 
-    double calculateVolume(double length, double width, double height) {
-        return length * width * height;
+    void calculateVolume(double length, double width, double height) {
+        double volume = length * width * height;
+        System.out.println("Volume of Rectangular Cube = " + volume);
     }
 
-    double calculateVolumeSphere(double radius) {
-        return (4.0 / 3.0) * Math.PI * radius * radius * radius;
+    void calculateVolume(int radius) {
+        double volume = (4.0 / 3.0) * 3.14 * radius * radius * radius;
+        System.out.println("Volume of Sphere = " + volume);
     }
-}
 
-public class Main {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Volume v = new Volume();
 
-        VolumeCalculator vc = new VolumeCalculator();
+        System.out.print("Enter side of Cube: ");
+        double side = sc.nextDouble();
+        v.calculateVolume(side);
 
-        double cubeVolume = vc.calculateVolume(5);
-        System.out.println("Volume of Cube (side = 5): " + cubeVolume);
+        System.out.print("Enter length, width, height of Rectangular Cube: ");
+        double l = sc.nextDouble();
+        double w = sc.nextDouble();
+        double h = sc.nextDouble();
+        v.calculateVolume(l, w, h);
 
-        double cuboidVolume = vc.calculateVolume(4, 5, 6);
-        System.out.println("Volume of Rectangular Cube (4 x 5 x 6): " + cuboidVolume);
+        System.out.print("Enter radius of Sphere: ");
+        int r = sc.nextInt();
+        v.calculateVolume(r);
 
-        double sphereVolume = vc.calculateVolumeSphere(3);
-        System.out.printf("Volume of Sphere (radius = 3): %.2f\n", sphereVolume);
+        sc.close();
     }
 }
 
 output:
-Volume of Cube (side = 5): 125.0
-Volume of Rectangular Cube (4 x 5 x 6): 120.0
-Volume of Sphere (radius = 3): 113.10
+Enter side of Cube: 4
+Volume of Cube = 64.0
+Enter length, width, height of Rectangular Cube: 4 3 2
+Volume of Rectangular Cube = 24.0
+Enter radius of Sphere: 3
+Volume of Sphere = 113.03999999999998
