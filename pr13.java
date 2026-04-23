@@ -46,7 +46,7 @@ class Main {
     }
 }
 
-output:
+//output:
 Enter base and height of Triangle: 8 4
 Area of Triangle = 16.0
 Enter length and width of Rectangle: 10 5
