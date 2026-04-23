@@ -13,3 +13,15 @@ public class BMIcalculator {
         sc.close();
     }
 }
+
+output:
+Enter weight in pounds : 
+150
+Enter height in inches : 
+65
+Your BMI is : 24.96
+Enter weight in pounds : 
+180
+Enter height in inches : 
+70
+Your BMI is : 25.82
