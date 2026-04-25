@@ -67,7 +67,7 @@ public class Main {
         sc.close();
     }
 }
-//output:
+/*output:
 Choose Type:
 1. Employee
 2. Manager
@@ -92,4 +92,4 @@ Enter Project Name: digital board
 Name: shivam
 Department: CE
 Team Size: 10
-Project Name: digital board
+Project Name: digital board */
