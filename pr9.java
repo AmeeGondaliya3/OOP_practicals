@@ -49,7 +49,7 @@ public class Main {
     }
 }
 
-output:
+/*output:
 Rectangle 1:
 Width: 4.0
 Height: 40.0
@@ -62,4 +62,4 @@ Height: 35.9
 Area: 125.64999999999999
 Perimeter: 78.8
 
-Rectangle 1 has a larger area.
+Rectangle 1 has a larger area.*/
