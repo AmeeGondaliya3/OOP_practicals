@@ -50,7 +50,7 @@ public class Main {
     }
 }
 
-output:
+/*output:
 Using Default Constructor:
 Point coordinates: (5, 5)
 
@@ -58,4 +58,4 @@ Using Parameterized Constructor:
 Point coordinates: (10, 20)
 
 Using Copy Constructor (copy of p2):
-Point coordinates: (10, 20)
+Point coordinates: (10, 20)*/
