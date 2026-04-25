@@ -61,7 +61,7 @@ public class Main {
         sc.close();
     }
 }
-//output:
+/*output:
 Choose Vehicle Type:
 1. Car
 2. Bike
@@ -80,4 +80,4 @@ Enter fuel type for Bike (Petrol): Petrol
 
 --- Bike Details ---
 Fuel Type: Petrol
-Number of Wheels: 2
+Number of Wheels: 2*/
