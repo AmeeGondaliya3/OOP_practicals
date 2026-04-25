@@ -37,11 +37,11 @@ public class Main {
         }
     }
 }
-//output:
+/*output:
 Enter your age: 21
 You are eligible to vote.
 Validation process completed
   
 Enter your age: 15
 Exception: Age must be 18 or above to vote
-Validation process completed
+Validation process completed*/
